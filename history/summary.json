@@ -5,18 +5,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/app.loftstage.com.ico",
     "slug": "loftstage-app-and-api",
     "status": "down",
-    "uptime": "33.53%",
-    "uptimeDay": "33.53%",
-    "uptimeWeek": "33.53%",
-    "uptimeMonth": "33.53%",
-    "uptimeYear": "33.53%",
-    "time": 84,
-    "timeDay": 84,
-    "timeWeek": 84,
-    "timeMonth": 84,
-    "timeYear": 84,
+    "uptime": "0.02%",
+    "uptimeDay": "0.02%",
+    "uptimeWeek": "0.02%",
+    "uptimeMonth": "0.02%",
+    "uptimeYear": "0.02%",
+    "time": 59,
+    "timeDay": 59,
+    "timeWeek": 59,
+    "timeMonth": 59,
+    "timeYear": 59,
     "dailyMinutesDown": {
-      "2026-07-04": 0
+      "2026-07-05": 102,
+      "2026-07-04": 779
     }
   },
   {
@@ -25,18 +26,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/loftstage.com.ico",
     "slug": "loftstage-marketing-site",
     "status": "down",
-    "uptime": "57.53%",
-    "uptimeDay": "57.53%",
-    "uptimeWeek": "57.53%",
-    "uptimeMonth": "57.53%",
-    "uptimeYear": "57.53%",
-    "time": 72,
-    "timeDay": 72,
-    "timeWeek": 72,
-    "timeMonth": 72,
-    "timeYear": 72,
+    "uptime": "0.02%",
+    "uptimeDay": "0.02%",
+    "uptimeWeek": "0.02%",
+    "uptimeMonth": "0.02%",
+    "uptimeYear": "0.02%",
+    "time": 74,
+    "timeDay": 74,
+    "timeWeek": 74,
+    "timeMonth": 74,
+    "timeYear": 74,
     "dailyMinutesDown": {
-      "2026-07-04": 0
+      "2026-07-05": 102,
+      "2026-07-04": 779
     }
   },
   {
@@ -50,11 +52,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 513,
-    "timeDay": 513,
-    "timeWeek": 513,
-    "timeMonth": 513,
-    "timeYear": 513,
+    "time": 421,
+    "timeDay": 421,
+    "timeWeek": 421,
+    "timeMonth": 421,
+    "timeYear": 421,
     "dailyMinutesDown": {}
   }
 ]
