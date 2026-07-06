@@ -16,7 +16,7 @@
     "timeMonth": 74,
     "timeYear": 74,
     "dailyMinutesDown": {
-      "2026-07-06": 27,
+      "2026-07-06": 28,
       "2026-07-05": 1440,
       "2026-07-04": 779
     }
@@ -27,11 +27,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/app.loftstage.com.ico",
     "slug": "loftstage-checkout-stack-strict",
     "status": "down",
-    "uptime": "38.88%",
-    "uptimeDay": "38.88%",
-    "uptimeWeek": "38.88%",
-    "uptimeMonth": "38.88%",
-    "uptimeYear": "38.88%",
+    "uptime": "35.18%",
+    "uptimeDay": "35.18%",
+    "uptimeWeek": "35.18%",
+    "uptimeMonth": "35.18%",
+    "uptimeYear": "35.18%",
     "time": 101,
     "timeDay": 101,
     "timeWeek": 101,
@@ -58,7 +58,7 @@
     "timeMonth": 75,
     "timeYear": 75,
     "dailyMinutesDown": {
-      "2026-07-06": 27,
+      "2026-07-06": 28,
       "2026-07-05": 1440,
       "2026-07-04": 779
     }
