@@ -5,6 +5,13 @@ repo: loftstage-status
 sites:
   - name: Loftstage App & API
     url: https://app.loftstage.com/api/health
+  # Strict checkout-stack probe: /api/health deliberately answers 200
+  # "degraded" when Redis or Stripe is down (checkout broken, rest stands).
+  # The plain check above stays green through that — this one goes DOWN
+  # (and notifies) whenever the body isn't status:"healthy".
+  - name: Loftstage Checkout Stack (strict)
+    url: https://app.loftstage.com/api/health
+    __dangerous__body_down_if_text_missing: '"status":"healthy"'
   - name: Loftstage Marketing Site
     url: https://loftstage.com
   - name: Loftstage Event Pages (edge)
@@ -14,6 +21,11 @@ sites:
       - 301
       - 403
       - 404
+  # TODO(launch): once the first real venue is live, monitor an actual event
+  # page — the attendee purchase surface (worker + wildcard DNS + R2 + cache).
+  # Uncomment and set a real org slug:
+  # - name: Loftstage Venue Pages
+  #   url: https://<orgslug>.loftstage.com/
 
 status-website:
   cname: false
@@ -21,6 +33,10 @@ status-website:
   name: Loftstage Status
   introTitle: "**Loftstage** service status"
   introMessage: Live status and incident history for [Loftstage](https://loftstage.com).
+
+# Notifications: SMTP via Resend — configured entirely through repo secrets
+# (NOTIFICATION_EMAIL*, see upptime.js.org/docs/notifications). Down/up
+# events email the founder; issues still open on this repo as a record.
 
 # NOTE: app.loftstage.com is not deployed yet — checks will read "down"
 # until the Phase 8 production cut-over. GH_PAT repo secret still required.
