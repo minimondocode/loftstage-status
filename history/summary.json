@@ -4,19 +4,19 @@
     "url": "https://app.loftstage.com/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/app.loftstage.com.ico",
     "slug": "loftstage-app-and-api",
-    "status": "down",
-    "uptime": "0.01%",
-    "uptimeDay": "0.00%",
-    "uptimeWeek": "0.01%",
-    "uptimeMonth": "0.01%",
-    "uptimeYear": "0.01%",
-    "time": 74,
-    "timeDay": 89,
-    "timeWeek": 74,
-    "timeMonth": 74,
-    "timeYear": 74,
+    "status": "up",
+    "uptime": "0.02%",
+    "uptimeDay": "0.02%",
+    "uptimeWeek": "0.02%",
+    "uptimeMonth": "0.02%",
+    "uptimeYear": "0.02%",
+    "time": 233,
+    "timeDay": 349,
+    "timeWeek": 233,
+    "timeMonth": 233,
+    "timeYear": 233,
     "dailyMinutesDown": {
-      "2026-07-06": 108,
+      "2026-07-06": 999,
       "2026-07-05": 1440,
       "2026-07-04": 779
     }
@@ -26,19 +26,19 @@
     "url": "https://app.loftstage.com/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/app.loftstage.com.ico",
     "slug": "loftstage-checkout-stack-strict",
-    "status": "down",
-    "uptime": "0.26%",
-    "uptimeDay": "0.26%",
-    "uptimeWeek": "0.26%",
-    "uptimeMonth": "0.26%",
-    "uptimeYear": "0.26%",
-    "time": 101,
-    "timeDay": 101,
-    "timeWeek": 101,
-    "timeMonth": 101,
-    "timeYear": 101,
+    "status": "up",
+    "uptime": "0.05%",
+    "uptimeDay": "0.05%",
+    "uptimeWeek": "0.05%",
+    "uptimeMonth": "0.05%",
+    "uptimeYear": "0.05%",
+    "time": 246,
+    "timeDay": 246,
+    "timeWeek": 246,
+    "timeMonth": 246,
+    "timeYear": 246,
     "dailyMinutesDown": {
-      "2026-07-06": 81
+      "2026-07-06": 972
     }
   },
   {
@@ -58,7 +58,7 @@
     "timeMonth": 75,
     "timeYear": 75,
     "dailyMinutesDown": {
-      "2026-07-06": 108,
+      "2026-07-06": 999,
       "2026-07-05": 1440,
       "2026-07-04": 779
     }
