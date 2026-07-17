@@ -21,11 +21,11 @@ sites:
       - 301
       - 403
       - 404
-  # TODO(launch): once the first real venue is live, monitor an actual event
-  # page — the attendee purchase surface (worker + wildcard DNS + R2 + cache).
-  # Uncomment and set a real org slug:
-  # - name: Loftstage Venue Pages
-  #   url: https://<orgslug>.loftstage.com/
+  # Venue-page probe — the attendee purchase surface (worker + wildcard DNS +
+  # R2 + cache). Currently points at the seeded demo venue; TODO(launch):
+  # re-point at the first real venue's org slug once one is live.
+  - name: Loftstage Venue Pages
+    url: https://the-velvet-note.loftstage.com/
 
 status-website:
   cname: false
